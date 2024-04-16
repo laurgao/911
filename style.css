@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Crimson Text", serif;
+    color: #262626;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* display: table; */
+    /* grid-template-columns: 1fr 1fr; */
+    background-color: #292524;
+    color: #e7e5e4;
+}
+
+.header #img-wrap {
+    width: 50%;
+    opacity: 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-caption {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1.5rem;
+}
+
+a {
+    color: inherit;
+}
+
+.img-caption a {
+    color: #fafaf9;
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
+
+.img-caption a:hover {
+    opacity: 1;
+}
+
+img {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header #h1-wrap {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8em;
+}
+
+.header #h1-wrap h1 {
+    font-size: 5em;
+}
+.header #h1-wrap p.preview {
+    font-size: 1.5em;
+    opacity: 0.7;
+}
+
+.header #h1-wrap div.byline {
+    font-size: 1em;
+    opacity: 0.4;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: "Arial", sans-serif;
+}
+
+.header #h1-wrap div.byline p {
+    margin-bottom: 0.3rem;
+}
+
+.container {
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 70ch;
+    margin: 0 auto;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.container p {
+    margin-bottom: 1.5em;
+}
+
+div.footery {
+    margin-top: 10rem;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+div.footery h1 {
+    opacity: 0.5;
+    font-size: 2rem;
+}
+
+div.footery svg {
+    width: 10rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
+
+div.footery a {
+    color: inherit;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+}
+
+div.footery a:hover {
+    opacity: 0.7;
+}
